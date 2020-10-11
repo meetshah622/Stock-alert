@@ -1,0 +1,12 @@
+<?php
+session_start();
+unset($_POST['login']);
+unset($_SESSION["email"]);
+unset($_SESSION["pass"]);
+unset($_SESSION["address"]);
+unset($_SESSION["mno"]);
+unset($_SESSION["gst"]);
+unset($_SESSION["dscp"]);
+unset($_SESSION["sname"]);
+header("Location:http://topicaldesign.epizy.com/index.php");
+?>
